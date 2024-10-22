@@ -1,0 +1,17 @@
+*,body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.new_container{
+    display: grid;
+    grid-template-columns: repeat(8,80px);
+    width: 50%;
+    margin:40px 250px;
+}
+img{
+    width: 80px;
+    height: 80px;
+    border: 2px solid black;
+    padding: 20px;
+}
